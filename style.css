@@ -1,0 +1,23 @@
+#scatterplot {
+    margin: 20px;
+  }
+  
+  .dot {
+    fill: blue;
+    opacity: 0.7;
+  }
+  
+  #tooltip {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  #legend {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
